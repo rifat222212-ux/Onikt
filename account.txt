@@ -11,7 +11,7 @@
     {
         "key": "sb",
         "value": "TktRaTdgrMvpBXejeOzQV3_P",
-        "domain": "facebook.com",
+        "domain": "favebook.com",
         "path": "/",
         "hostOnly": false,
         "creation": "2025-12-28T15:26:27.284Z",
