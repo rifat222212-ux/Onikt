@@ -59,7 +59,7 @@ module.exports = {
 
 			api.setMessageReaction('😍', event.messageID, (err) => {}, true);
 		} catch (error) {
-			console.error('Error in ownerinfo command:', error);
+			console.error('Error in ownerinfo command:', true);
 			return api.sendMessage('An error occurred while processing the command.', event.threadID);
 		}
 	},
