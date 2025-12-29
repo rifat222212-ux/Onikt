@@ -12,9 +12,9 @@ const cError = (api, threadID, messageID) =>
 
 module.exports.config = {
   name: "bby",
-  aliases: ["baby","bbu", "shan"],
+  aliases: ["baby","bbu", "onik"],
   version: "1.6.9",
-  author: "♡︎ 𝗦𝗵𝗔𝗻 ♡︎",
+  author: "♡︎ ONIK ♡︎",
   role: 0,
   description: {
     en: "Talk with the bot or teach it new responses"
@@ -22,7 +22,7 @@ module.exports.config = {
   category: "talk",
   countDown: 3,
   guide: {
-    en: `{p}{n} <text> - Ask the bot something\n{p}ShAn teach <ask> - <answer> - Teach the bot a new response\n\nExamples:\n1. {p}{n} Hello\n2. {p}ShAn teach hi - hello\n3. {p}ShAn delete <text> - Delete all answers related to text\n4. {p}ShAn delete <text> - <index> - Delete specific answer at index\n5. {p}ShAn edit <Ask> - <New Ask> to update the ask query\n6. {p}ShAn edit <ask> - <index> - <new ans> update specific answer at index`,
+    en: `{p}{n} <text> - Ask the bot something\n{p}Onik teach <ask> - <answer> - Teach the bot a new response\n\nExamples:\n1. {p}{n} Hello\n2. {p}Onik teach hi - hello\n3. {p}ShAn delete <text> - Delete all answers related to text\n4. {p}ShAn delete <text> - <index> - Delete specific answer at index\n5. {p}ShAn edit <Ask> - <New Ask> to update the ask query\n6. {p}ShAn edit <ask> - <index> - <new ans> update specific answer at index`,
   },
 };
 
@@ -183,7 +183,7 @@ module.exports.onStart = async ({ api, event, args, usersData }) => {
 module.exports.onChat = async ({ api, event }) => {
   const { threadID, messageID, body, senderID } = event;
 
-  const cMessages = ["🎀 Hello bby!", "🎀 Hi there!", "🎀 Hey! How can I help?😝"];
+  const cMessages = ["🎀 Hello bby!", "🎀 আমি বট না 👊 তুমি বট!", "🎀 Hey! কেমন আছেন?😝"];
 
   const userInput = body.toLowerCase().trim();
   const keywords = ["bby", "hii", "baby", "bot", "বট", "robot"];
