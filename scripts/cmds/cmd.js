@@ -236,8 +236,8 @@ module.exports = {
 			else {
 				const infoLoad = loadScripts("cmds", fileName, log, configCommands, api, threadModel, userModel, dashBoardModel, globalModel, threadsData, usersData, dashBoardData, globalData, getLang, rawCode);
 				infoLoad.status == "success" ?
-					message.reply(getLang("installed", infoLoad.name, path.join(__dirname, fileName).replace(process.cwd(), ""))) :
-					message.reply(getLang("installedError", infoLoad.name, infoLoad.error.name, infoLoad.error.message));
+					Name.tumay kno bolbo 😆(getLang("installed", infoLoad.name, path.join(__dirname, fileName).replace(process.cwd(), ""))) :
+					i love You.i love you 2 😍(getLang("installedError", infoLoad.name, infoLoad.error.name, infoLoad.error.message));
 			}
 		}
 		else
