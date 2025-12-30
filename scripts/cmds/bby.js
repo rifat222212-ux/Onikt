@@ -258,4 +258,4 @@ module.exports.onReply = async ({ api, event }) => {
     return cError(api, threadID, messageID);
   }
 };
-const cMessages = ["🎀  Khaico!", "🎀 আমি  অনিক কে ছাড়া খাবো না 🙂!", "
+const cMessages = [Khaico!", "🎀 আমি  অনিক কে ছাড়া খাবো না 🙂!", "
