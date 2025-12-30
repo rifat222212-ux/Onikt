@@ -14,7 +14,7 @@ module.exports = {
     guide: "{pn}"
   },
   onStart: async function ({ api, event, args, usersData, threadsData }) {
-    api.setMessageReaction("💝", event.messageID, (err) => {}, true);
+    api.setMessageReaction("❤️‍🩹", event.messageID, (err) => {}, true);
     let pathImg = __dirname + "/cache/background.png";
     let pathAvt1 = __dirname + "/cache/Avtmot.png";
     let pathAvt2 = __dirname + "/cache/Avthai.png";
